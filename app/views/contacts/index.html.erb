@@ -1,0 +1,10 @@
+<h1>View all contacts</h1>
+<div id ="list_contacts"><ul>
+<% @contacts.each do |contact| %>
+	<li><%= contact.name %>-
+	<%= contact.adress %>-
+	<%= contact.number_phone %>-
+	<%= contact.email %></li>
+<% end %>
+
+</ul></div>
